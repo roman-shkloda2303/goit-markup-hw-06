@@ -376,6 +376,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
+    justify-content: center;
 }
 
 .team-item {
@@ -899,7 +900,7 @@ img {
     }
 
     .features-item {
-        flex-basis: calc((100% - 48px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
     }
 
     .features-subtitle {
@@ -953,6 +954,12 @@ img {
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+
+    }
+
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 
     .team .container,
